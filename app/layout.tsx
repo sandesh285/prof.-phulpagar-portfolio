@@ -9,7 +9,7 @@ export const metadata = {
   title: "Dr. Priyank J. Sharma - Academic Portfolio",
   description:
     "Personal academic website of Dr. Priyank J. Sharma, Assistant Professor at Indian Institute of Technology",
-    generator: 'v0.dev'
+    
 }
 
 export default function RootLayout({
