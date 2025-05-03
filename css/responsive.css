@@ -1,0 +1,90 @@
+/* Responsive Styles */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .page-title {
+    font-size: 3rem;
+  }
+
+  .quick-links-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .quotes-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .profile-grid {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .books-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .quotes-grid {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .research-areas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-card {
+    flex-direction: row;
+  }
+
+  .project-info {
+    width: 30%;
+  }
+
+  .project-details {
+    width: 70%;
+  }
+
+  .publication-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .publication-actions {
+    margin-left: 1rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .research-areas-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .awards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
